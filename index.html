@@ -1,0 +1,1023 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="مرکز تخصصی حقوق خانواده کاج - مشاوره حقوقی آنلاین در حوزه حقوق خانواده">
+<title>مرکز تخصصی حقوق خانواده کاج</title>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Vazirmatn:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+<style>
+:root{
+  --green:#123f35;
+  --green2:#1d5b4d;
+  --gold:#c9a45c;
+  --cream:#f7f4ec;
+  --text:#24302d;
+  --muted:#68736f;
+  --white:#fff;
+  --line:#e7e5dd;
+  --card:#fbfbf8;
+  --shadow:0 16px 45px rgba(18,63,53,.09);
+}
+
+*{
+  box-sizing:border-box;
+  margin:0;
+  padding:0;
+}
+
+html{
+  scroll-behavior:smooth;
+}
+
+body{
+  font-family:Vazirmatn,Tahoma,sans-serif;
+  background:#fff;
+  color:var(--text);
+  line-height:1.9;
+}
+
+a{
+  text-decoration:none;
+  color:inherit;
+}
+
+.container{
+  width:min(1120px,92%);
+  margin:auto;
+}
+
+/* Header */
+
+header{
+  position:sticky;
+  top:0;
+  z-index:20;
+  background:rgba(255,255,255,.95);
+  backdrop-filter:blur(12px);
+  border-bottom:1px solid var(--line);
+}
+
+.nav{
+  height:76px;
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  gap:20px;
+}
+
+.brand{
+  display:flex;
+  align-items:center;
+  gap:12px;
+  font-weight:800;
+  color:var(--green);
+}
+
+.logo{
+  width:44px;
+  height:44px;
+  border-radius:14px;
+  background:var(--green);
+  display:grid;
+  place-items:center;
+  color:#fff;
+  font-size:23px;
+}
+
+nav{
+  display:flex;
+  gap:22px;
+  font-size:14px;
+  color:#46534f;
+}
+
+nav a:hover{
+  color:var(--green);
+}
+
+/* Hero */
+
+.hero{
+  background:linear-gradient(135deg,var(--cream),#fff 65%);
+  padding:82px 0 70px;
+}
+
+.hero-grid{
+  display:grid;
+  grid-template-columns:1.15fr .85fr;
+  align-items:center;
+  gap:55px;
+}
+
+.eyebrow{
+  color:var(--green2);
+  font-weight:700;
+  margin-bottom:14px;
+}
+
+h1{
+  font-size:clamp(31px,5vw,55px);
+  line-height:1.35;
+  color:var(--green);
+  margin-bottom:18px;
+}
+
+.hero p{
+  font-size:18px;
+  color:var(--muted);
+  max-width:680px;
+}
+
+.actions{
+  display:flex;
+  gap:12px;
+  flex-wrap:wrap;
+  margin-top:28px;
+}
+
+.btn{
+  display:inline-flex;
+  align-items:center;
+  justify-content:center;
+  padding:13px 22px;
+  border-radius:13px;
+  font-weight:700;
+  transition:.2s;
+}
+
+.btn-primary{
+  background:var(--green);
+  color:#fff;
+}
+
+.btn-primary:hover{
+  background:#0d332c;
+  transform:translateY(-2px);
+}
+
+.btn-light{
+  background:#fff;
+  border:1px solid var(--line);
+  color:var(--green);
+}
+
+.hero-art{
+  min-height:330px;
+  border-radius:38px;
+  background:
+    radial-gradient(circle at 50% 38%,#e4eee9 0 28%,transparent 29%),
+    linear-gradient(145deg,#eaf0eb,#f8f3e7);
+  display:grid;
+  place-items:center;
+  box-shadow:var(--shadow);
+}
+
+.scales{
+  font-size:110px;
+  color:var(--gold);
+}
+
+/* Trust */
+
+.trust{
+  padding:18px 0;
+  border-bottom:1px solid var(--line);
+}
+
+.trust-grid{
+  display:grid;
+  grid-template-columns:repeat(3,1fr);
+  gap:15px;
+  text-align:center;
+  color:var(--muted);
+  font-size:14px;
+}
+
+/* Sections */
+
+section{
+  padding:78px 0;
+}
+
+.section-head{
+  text-align:center;
+  max-width:760px;
+  margin:0 auto 38px;
+}
+
+.section-head h2{
+  font-size:31px;
+  color:var(--green);
+  margin-bottom:9px;
+}
+
+.section-head p{
+  color:var(--muted);
+}
+
+/* Cards */
+
+.cards{
+  display:grid;
+  grid-template-columns:repeat(3,1fr);
+  gap:20px;
+}
+
+.card{
+  background:var(--card);
+  border:1px solid var(--line);
+  border-radius:22px;
+  padding:28px;
+  box-shadow:0 8px 25px rgba(0,0,0,.025);
+}
+
+.icon{
+  font-size:28px;
+  margin-bottom:13px;
+}
+
+.card h3{
+  color:var(--green);
+  font-size:20px;
+  margin-bottom:12px;
+}
+
+.card p,
+.card li{
+  color:var(--muted);
+  font-size:14px;
+}
+
+.card ul{
+  padding-right:19px;
+  margin:13px 0 18px;
+}
+
+.price{
+  font-size:23px;
+  font-weight:800;
+  color:var(--green);
+}
+
+/* Process */
+
+.process{
+  background:var(--cream);
+}
+
+.steps{
+  display:grid;
+  grid-template-columns:repeat(6,1fr);
+  gap:12px;
+}
+
+.step{
+  background:#fff;
+  border:1px solid var(--line);
+  border-radius:18px;
+  padding:20px 12px;
+  text-align:center;
+}
+
+.num{
+  width:36px;
+  height:36px;
+  border-radius:50%;
+  display:grid;
+  place-items:center;
+  background:#e5eee9;
+  color:var(--green);
+  font-weight:800;
+  margin:0 auto 10px;
+}
+
+.step b{
+  font-size:14px;
+  color:var(--green);
+}
+
+/* Information */
+
+.info-grid{
+  display:grid;
+  grid-template-columns:repeat(2,1fr);
+  gap:20px;
+}
+
+.info{
+  padding:27px;
+  border:1px solid var(--line);
+  border-radius:20px;
+  background:#fff;
+}
+
+.info h3{
+  color:var(--green);
+  margin-bottom:10px;
+}
+
+.info p,
+.info li{
+  color:var(--muted);
+  font-size:14px;
+}
+
+.info ul{
+  padding-right:20px;
+}
+
+/* FAQ */
+
+.faq{
+  max-width:850px;
+  margin:auto;
+}
+
+details{
+  border-bottom:1px solid var(--line);
+  padding:18px 0;
+}
+
+summary{
+  cursor:pointer;
+  font-weight:700;
+  color:var(--green);
+}
+
+details p{
+  color:var(--muted);
+  font-size:14px;
+  padding-top:10px;
+}
+
+/* CTA */
+
+.cta{
+  background:var(--green);
+  color:#fff;
+  border-radius:30px;
+  padding:50px;
+  text-align:center;
+}
+
+.cta h2{
+  font-size:31px;
+  margin-bottom:10px;
+}
+
+.cta p{
+  color:#dce9e4;
+}
+
+.cta .btn{
+  margin-top:20px;
+  background:var(--gold);
+  color:#17352f;
+}
+
+/* Footer */
+
+footer{
+  background:#0d2d27;
+  color:#d6e2de;
+  padding:35px 0;
+}
+
+.footer-grid{
+  display:flex;
+  justify-content:space-between;
+  gap:20px;
+  flex-wrap:wrap;
+}
+
+footer p,
+footer a{
+  font-size:13px;
+  color:#b9cbc5;
+}
+
+/* Mobile */
+
+@media(max-width:850px){
+
+  nav{
+    display:none;
+  }
+
+  .hero-grid{
+    grid-template-columns:1fr;
+  }
+
+  .hero-art{
+    min-height:250px;
+  }
+
+  .cards{
+    grid-template-columns:1fr;
+  }
+
+  .steps{
+    grid-template-columns:repeat(2,1fr);
+  }
+
+  .info-grid{
+    grid-template-columns:1fr;
+  }
+
+  .trust-grid{
+    grid-template-columns:1fr;
+  }
+
+  section{
+    padding:58px 0;
+  }
+}
+</style>
+</head>
+
+<body>
+
+<header>
+  <div class="container nav">
+
+    <a class="brand" href="#">
+      <span class="logo">⚖</span>
+      <span>مرکز تخصصی حقوق خانواده کاج</span>
+    </a>
+
+    <nav>
+      <a href="#services">خدمات و تعرفه‌ها</a>
+      <a href="#process">نحوه دریافت مشاوره</a>
+      <a href="#about">درباره ما</a>
+      <a href="#faq">سؤالات متداول</a>
+      <a href="#contact">تماس با ما</a>
+    </nav>
+
+  </div>
+</header>
+
+<main>
+
+<!-- Hero -->
+
+<section class="hero">
+
+  <div class="container hero-grid">
+
+    <div>
+
+      <div class="eyebrow">
+        مرکز تخصصی حقوق خانواده کاج
+      </div>
+
+      <h1>
+        مشاوره حقوقی آنلاین در حوزه حقوق خانواده
+      </h1>
+
+      <p>
+        درخواست مشاوره خود را ثبت کنید، شرح مسئله و مدارک مرتبط را ارسال نمایید و پس از بررسی، راهکار حقوقی متناسب با موضوع پرونده دریافت کنید.
+      </p>
+
+      <div class="actions">
+
+        <a
+          class="btn btn-primary"
+          href="https://t.me/KajLawConsult"
+          target="_blank">
+          ⚖️ ثبت درخواست مشاوره
+        </a>
+
+        <a
+          class="btn btn-light"
+          href="#services">
+          مشاهده خدمات و تعرفه‌ها
+        </a>
+
+      </div>
+
+    </div>
+
+    <div class="hero-art">
+      <div class="scales">⚖</div>
+    </div>
+
+  </div>
+
+</section>
+
+<!-- Trust -->
+
+<div class="trust">
+
+  <div class="container trust-grid">
+
+    <div>✓ خدمات به‌صورت آنلاین</div>
+
+    <div>✓ امکان ارسال مدارک و مستندات</div>
+
+    <div>✓ پاسخ‌گویی تخصصی در موضوع ثبت‌شده</div>
+
+  </div>
+
+</div>
+
+<!-- Services -->
+
+<section id="services">
+
+  <div class="container">
+
+    <div class="section-head">
+
+      <h2>خدمات و تعرفه‌ها</h2>
+
+      <p>
+        نوع خدمت را بر اساس نیاز خود انتخاب کنید.
+        هزینه خدمات در این صفحه به‌صورت شفاف اعلام شده است.
+      </p>
+
+    </div>
+
+    <div class="cards">
+
+      <article class="card">
+
+        <div class="icon">🟢</div>
+
+        <h3>
+          مشاوره حقوقی اولیه
+        </h3>
+
+        <p>
+          بررسی موضوع، پاسخ به پرسش‌های حقوقی مرتبط و ارائه راهنمایی اولیه درباره وضعیت حقوقی و مسیر مناسب.
+        </p>
+
+        <ul>
+
+          <li>
+            زمان پاسخ‌گویی: تا ۱۲ ساعت از شروع اولین پاسخ وکیل
+          </li>
+
+          <li>
+            مناسب برای بررسی اولیه موضوع
+          </li>
+
+        </ul>
+
+        <div class="price">
+          ۹۰۰٬۰۰۰ تومان
+        </div>
+
+      </article>
+
+
+      <article class="card">
+
+        <div class="icon">🔵</div>
+
+        <h3>
+          مشاوره تخصصی پرونده
+        </h3>
+
+        <p>
+          بررسی شرح کامل مسئله و مدارک مرتبط، تحلیل حقوقی و ارائه راهکار متناسب با شرایط پرونده.
+        </p>
+
+        <ul>
+
+          <li>
+            زمان پاسخ‌گویی: تا ۲۴ ساعت از شروع اولین پاسخ وکیل
+          </li>
+
+          <li>
+            امکان بررسی مدارک مرتبط
+          </li>
+
+        </ul>
+
+        <div class="price">
+          ۱٬۸۰۰٬۰۰۰ تومان
+        </div>
+
+      </article>
+
+
+      <article class="card">
+
+        <div class="icon">🟣</div>
+
+        <h3>
+          بررسی جامع پرونده و ارائه راهکار حقوقی
+        </h3>
+
+        <p>
+          بررسی جامع موضوع و مستندات، تحلیل مسیرهای حقوقی و ارائه نقشه راه متناسب با پرونده.
+        </p>
+
+        <ul>
+
+          <li>
+            زمان پاسخ‌گویی: تا ۴۸ ساعت از شروع اولین پاسخ وکیل
+          </li>
+
+          <li>
+            بررسی گزینه‌ها و مسیرهای حقوقی
+          </li>
+
+        </ul>
+
+        <div class="price">
+          ۳٬۵۰۰٬۰۰۰ تومان
+        </div>
+
+      </article>
+
+    </div>
+
+
+    <div class="info" style="margin-top:20px">
+
+      <h3>
+        تنظیم اسناد حقوقی
+      </h3>
+
+      <p>
+        تنظیم دادخواست، لایحه، شکواییه، اظهارنامه و سایر متون حقوقی به‌صورت خدمت مستقل انجام می‌شود.
+        هزینه این خدمت بر اساس نوع سند، موضوع و میزان کار موردنیاز تعیین و پیش از انجام خدمت اعلام خواهد شد.
+      </p>
+
+    </div>
+
+  </div>
+
+</section>
+
+
+<!-- Process -->
+
+<section id="process" class="process">
+
+  <div class="container">
+
+    <div class="section-head">
+
+      <h2>
+        نحوه دریافت مشاوره
+      </h2>
+
+      <p>
+        فرآیند دریافت خدمت ساده و شفاف طراحی شده است.
+      </p>
+
+    </div>
+
+
+    <div class="steps">
+
+      <div class="step">
+        <div class="num">۱</div>
+        <b>ثبت درخواست</b>
+      </div>
+
+      <div class="step">
+        <div class="num">۲</div>
+        <b>شرح موضوع</b>
+      </div>
+
+      <div class="step">
+        <div class="num">۳</div>
+        <b>ارسال مدارک</b>
+      </div>
+
+      <div class="step">
+        <div class="num">۴</div>
+        <b>بررسی درخواست</b>
+      </div>
+
+      <div class="step">
+        <div class="num">۵</div>
+        <b>پرداخت هزینه</b>
+      </div>
+
+      <div class="step">
+        <div class="num">۶</div>
+        <b>شروع مشاوره</b>
+      </div>
+
+    </div>
+
+
+    <div class="info-grid" style="margin-top:28px">
+
+      <div class="info">
+
+        <h3>
+          ساعات پاسخ‌گویی
+        </h3>
+
+        <p>
+          شنبه تا پنجشنبه: ۱۶:۰۰ تا ۲۲:۰۰
+        </p>
+
+        <p>
+          جمعه و تعطیلات رسمی: پاسخ‌گویی انجام نمی‌شود.
+        </p>
+
+        <p style="margin-top:8px">
+          ارسال درخواست، اطلاعات، مدارک و پرداخت می‌تواند در تمام ساعات شبانه‌روز انجام شود.
+        </p>
+
+      </div>
+
+
+      <div class="info">
+
+        <h3>
+          نکات مهم
+        </h3>
+
+        <ul>
+
+          <li>
+            مدارک در مرحله ثبت درخواست الزامی نیستند؛ در صورت ارتباط، ارسال آن‌ها توصیه می‌شود.
+          </li>
+
+          <li>
+            شروع بازه پاسخ‌گویی از اولین پاسخ وکیل محاسبه می‌شود، نه صرفاً از زمان پرداخت.
+          </li>
+
+          <li>
+            مشاوره محدود به موضوع ثبت‌شده است و موضوع جدید ممکن است نیازمند ثبت درخواست جداگانه باشد.
+          </li>
+
+        </ul>
+
+      </div>
+
+    </div>
+
+  </div>
+
+</section>
+
+
+<!-- About -->
+
+<section id="about">
+
+  <div class="container">
+
+    <div class="section-head">
+
+      <h2>
+        درباره مرکز تخصصی حقوق خانواده کاج
+      </h2>
+
+      <p>
+        سامانه‌ای برای ارائه خدمات و مشاوره حقوقی آنلاین در حوزه حقوق خانواده.
+      </p>
+
+    </div>
+
+
+    <div class="info-grid">
+
+      <div class="info">
+
+        <h3>
+          رویکرد مرکز
+        </h3>
+
+        <p>
+          مبنای بررسی پرونده، اطلاعات و مستنداتی است که متقاضی ارائه می‌کند.
+          کامل و دقیق بودن اطلاعات می‌تواند به بررسی مناسب‌تر موضوع کمک کند.
+        </p>
+
+      </div>
+
+
+      <div class="info">
+
+        <h3>
+          نحوه پاسخ‌گویی
+        </h3>
+
+        <p>
+          پاسخ‌ها با توجه به موضوع می‌توانند به‌صورت متنی، صوتی یا در قالب بررسی فایل ارائه شوند
+          و در صورت مناسب بودن شرایط، تماس صوتی نیز ممکن است انجام شود.
+        </p>
+
+      </div>
+
+    </div>
+
+  </div>
+
+</section>
+
+
+<!-- FAQ -->
+
+<section id="faq">
+
+  <div class="container">
+
+    <div class="section-head">
+
+      <h2>
+        سؤالات متداول
+      </h2>
+
+    </div>
+
+
+    <div class="faq">
+
+      <details>
+
+        <summary>
+          آیا قبل از مشاوره باید مدارک را ارسال کنم؟
+        </summary>
+
+        <p>
+          خیر. ارسال مدارک در مرحله ثبت درخواست الزامی نیست؛
+          اما اگر مدرکی با موضوع شما مرتبط است، ارسال آن می‌تواند برای بررسی دقیق‌تر مفید باشد.
+        </p>
+
+      </details>
+
+
+      <details>
+
+        <summary>
+          پاسخ‌گویی چه زمانی شروع می‌شود؟
+        </summary>
+
+        <p>
+          بازه پاسخ‌گویی از شروع اولین پاسخ وکیل محاسبه می‌شود.
+          ساعات پاسخ‌گویی مرکز شنبه تا پنجشنبه از ساعت ۱۶ تا ۲۲ است.
+        </p>
+
+      </details>
+
+
+      <details>
+
+        <summary>
+          اگر موضوع جدیدی داشته باشم چه می‌شود؟
+        </summary>
+
+        <p>
+          مشاوره بر اساس موضوع ثبت‌شده انجام می‌شود.
+          موضوع جدید یا خارج از محدوده درخواست ممکن است نیازمند ثبت درخواست جداگانه باشد.
+        </p>
+
+      </details>
+
+
+      <details>
+
+        <summary>
+          آیا نتیجه پرونده تضمین می‌شود؟
+        </summary>
+
+        <p>
+          خیر. تحلیل حقوقی بر اساس اطلاعات و مدارک ارائه‌شده انجام می‌شود
+          و نتیجه نهایی هر پرونده به شرایط، ادله، روند رسیدگی و تصمیم مرجع صالح بستگی دارد.
+        </p>
+
+      </details>
+
+
+      <details>
+
+        <summary>
+          چگونه درخواست مشاوره را ثبت کنم؟
+        </summary>
+
+        <p>
+          با انتخاب گزینه «ثبت درخواست مشاوره» به حساب مشاوره مرکز در تلگرام هدایت می‌شوید
+          و می‌توانید درخواست خود را ارسال کنید.
+        </p>
+
+      </details>
+
+    </div>
+
+  </div>
+
+</section>
+
+
+<!-- Contact -->
+
+<section id="contact">
+
+  <div class="container">
+
+    <div class="cta">
+
+      <h2>
+        برای دریافت مشاوره، درخواست خود را ثبت کنید
+      </h2>
+
+      <p>
+        برای شروع، وارد حساب مشاوره مرکز در تلگرام شوید و موضوع خود را ارسال کنید.
+      </p>
+
+      <a
+        class="btn"
+        href="https://t.me/KajLawConsult"
+        target="_blank">
+        💬 ارتباط با مرکز در تلگرام
+      </a>
+
+    </div>
+
+
+    <div class="contact" style="margin-top:30px">
+
+      <div class="info">
+
+        <h3>
+          حساب مشاوره مرکز
+        </h3>
+
+        <p>
+          <a
+            href="https://t.me/KajLawConsult"
+            target="_blank"
+            style="color:var(--green);font-weight:700">
+            @KajLawConsult
+          </a>
+        </p>
+
+      </div>
+
+
+      <div class="info">
+
+        <h3>
+          توضیح مهم درباره خدمات
+        </h3>
+
+        <p>
+          خدمات این مرکز به‌صورت آنلاین ارائه می‌شوند.
+          تغییر شرایط یا ارائه مدارک جدید ممکن است نیازمند بررسی مجدد و ثبت درخواست جدید باشد.
+        </p>
+
+      </div>
+
+    </div>
+
+  </div>
+
+</section>
+
+</main>
+
+
+<footer>
+
+  <div class="container footer-grid">
+
+    <div>
+
+      <strong>
+        مرکز تخصصی حقوق خانواده کاج
+      </strong>
+
+      <p>
+        مشاوره حقوقی آنلاین در حوزه حقوق خانواده
+      </p>
+
+    </div>
+
+
+    <div>
+
+      <p>
+        © ۱۴۰۵ مرکز تخصصی حقوق خانواده کاج
+      </p>
+
+      <p>
+        <a
+          href="https://t.me/KajLawConsult"
+          target="_blank">
+          @KajLawConsult
+        </a>
+      </p>
+
+    </div>
+
+  </div>
+
+</footer>
+
+</body>
+</html>
