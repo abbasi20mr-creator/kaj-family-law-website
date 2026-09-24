@@ -1448,3 +1448,37 @@ img {
     font-size: 25px;
   }
 }
+/* کدهای قبلی style.css */
+
+... آخرین کدهای موجود سایت ...
+
+
+/* Mobile navigation fix */
+@media (max-width: 800px) {
+
+    .nav-wrap {
+        flex-wrap: wrap;
+        gap: 14px;
+    }
+
+    .main-nav {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 8px;
+        position: relative;
+        z-index: 20;
+    }
+
+    .nav-button {
+        position: relative;
+        z-index: 21;
+        pointer-events: auto;
+    }
+
+    .brand {
+        position: relative;
+        z-index: 21;
+    }
+
+}
