@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="fa" dir="rtl">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -24,57 +25,92 @@
 
   <div class="container nav-wrap">
 
+    <!-- BRAND -->
+
     <a href="index.html" class="brand">
 
       <div class="brand-mark">
-    <img src="IMG_20260722_153449_247.jpg" alt="لوگوی مرکز تخصصی حقوق خانواده کاج">
-</div>
+        <img
+          src="IMG_20260722_153449_247.jpg"
+          alt="لوگوی مرکز تخصصی حقوق خانواده کاج"
+        >
+      </div>
 
       <div class="brand-text">
-        <div class="brand-title">
-          مرکز تخصصی حقوق خانواده کاج
-        </div>
 
-        <div class="brand-subtitle">
+        <strong class="brand-title">
+          مرکز تخصصی حقوق خانواده کاج
+        </strong>
+
+        <span class="brand-subtitle">
           خدمات و مشاوره تخصصی حقوقی
-        </div>
+        </span>
+
       </div>
 
     </a>
 
 
-    <nav class="main-nav">
+    <!-- MAIN NAVIGATION -->
 
-      <a href="index.html">خانه</a>
+    <nav
+      class="main-nav"
+      aria-label="منوی اصلی سایت"
+    >
 
-      <a href="services.html">
+      <a
+        href="index.html"
+        aria-label="صفحه اصلی"
+      >
+        خانه
+      </a>
+
+      <a
+        href="services.html"
+        aria-label="خدمات و تعرفه‌های مرکز"
+      >
         خدمات و تعرفه‌ها
       </a>
 
-      <a href="process.html">
+      <a
+        href="process.html"
+        aria-label="نحوه دریافت مشاوره"
+      >
         نحوه دریافت مشاوره
       </a>
 
-      <a href="about.html">
+      <a
+        href="about.html"
+        aria-label="درباره مرکز تخصصی حقوق خانواده کاج"
+      >
         درباره ما
       </a>
 
-      <a href="faq.html">
+      <a
+        href="faq.html"
+        aria-label="سؤالات متداول"
+      >
         سؤالات متداول
       </a>
 
-      <a href="contact.html">
+      <a
+        href="contact.html"
+        aria-label="تماس با مرکز"
+      >
         تماس با ما
       </a>
 
     </nav>
 
 
+    <!-- CONSULTATION BUTTON -->
+
     <a
       href="https://t.me/KajLawConsult"
       class="btn nav-button"
       target="_blank"
-      rel="noopener"
+      rel="noopener noreferrer"
+      aria-label="ثبت درخواست مشاوره در تلگرام"
     >
       ثبت درخواست مشاوره
     </a>
@@ -85,24 +121,27 @@
 
 
 <!-- ==================================================
-     HERO
+     MAIN
 ================================================== -->
 
 <main>
+
+
+<!-- ==================================================
+     HERO
+================================================== -->
 
 <section class="hero">
 
   <div class="container hero-grid">
 
-
-    <!-- HERO TEXT -->
+    <!-- HERO CONTENT -->
 
     <div class="hero-content">
 
-      <div class="eyebrow">
+      <div class="hero-eyebrow">
         مرکز تخصصی حقوق خانواده کاج
       </div>
-
 
       <h1>
         مشاوره حقوقی
@@ -110,8 +149,7 @@
         در حوزه حقوق خانواده
       </h1>
 
-
-      <p class="hero-lead">
+      <p class="hero-text">
 
         ارائه خدمات و مشاوره حقوقی با تمرکز بر
         دعاوی خانواده، ارث و تقسیم ارثیه،
@@ -120,18 +158,16 @@
 
       </p>
 
-
       <div class="hero-actions">
 
         <a
           href="https://t.me/KajLawConsult"
           class="btn btn-primary"
           target="_blank"
-          rel="noopener"
+          rel="noopener noreferrer"
         >
           ⚖️ ثبت درخواست مشاوره
         </a>
-
 
         <a
           href="services.html"
@@ -141,7 +177,6 @@
         </a>
 
       </div>
-
 
       <div class="hero-note">
 
@@ -159,19 +194,40 @@
 
       <div class="hero-card">
 
-        <div class="hero-card-icon">
+        <div class="hero-symbol">
           ⚖
         </div>
 
+        <div
+          style="
+            position:absolute;
+            z-index:3;
+            bottom:45px;
+            right:0;
+            left:0;
+            text-align:center;
+            padding:0 30px;
+          "
+        >
 
-        <div>
-
-          <h3>
+          <h3
+            style="
+              color:#fff;
+              font-size:20px;
+              margin-bottom:8px;
+            "
+          >
             حقوق خانواده،
             با نگاه تخصصی
           </h3>
 
-          <p>
+          <p
+            style="
+              color:rgba(255,255,255,.75);
+              font-size:12px;
+              line-height:2;
+            "
+          >
             بررسی موضوع، تحلیل حقوقی،
             بررسی مدارک و ارائه مسیر متناسب
             با شرایط پرونده.
@@ -182,32 +238,28 @@
       </div>
 
 
-      <div class="hero-floating one">
+      <div class="floating-card float-one">
 
-        <div>
-          <strong>
-            خدمات آنلاین و حضوری
-          </strong>
+        <strong>
+          خدمات آنلاین و حضوری
+        </strong>
 
-          <small>
-            با هماهنگی قبلی
-          </small>
-        </div>
+        <span>
+          با هماهنگی قبلی
+        </span>
 
       </div>
 
 
-      <div class="hero-floating two">
+      <div class="floating-card float-two">
 
-        <div>
-          <strong>
-            پاسخ‌گویی تخصصی
-          </strong>
+        <strong>
+          پاسخ‌گویی تخصصی
+        </strong>
 
-          <small>
-            توسط وکیل مرکز
-          </small>
-        </div>
+        <span>
+          توسط وکیل مرکز
+        </span>
 
       </div>
 
@@ -216,67 +268,75 @@
   </div>
 
 </section>
-
 
 
 <!-- ==================================================
      TRUST BAR
 ================================================== -->
 
-<section class="section-white" style="padding: 28px 0; border-bottom: 1px solid var(--border-light);">
+<section class="trust-bar">
 
   <div class="container">
 
-    <div
-      style="
-        display:grid;
-        grid-template-columns:repeat(4,1fr);
-        gap:18px;
-        text-align:center;
-      "
-    >
+    <div class="trust-grid">
 
-      <div>
-        <strong style="color:var(--green); display:block; font-size:15px;">
-          تخصص حقوقی
-        </strong>
+      <div class="trust-item">
 
-        <span style="color:var(--muted); font-size:11px;">
-          با تمرکز بر حوزه‌های مشخص
-        </span>
+        <div class="trust-icon">
+          ⚖
+        </div>
+
+        <div>
+          <strong>
+            تخصص حقوقی
+          </strong>
+        </div>
+
       </div>
 
 
-      <div>
-        <strong style="color:var(--green); display:block; font-size:15px;">
-          آنلاین و حضوری
-        </strong>
+      <div class="trust-item">
 
-        <span style="color:var(--muted); font-size:11px;">
-          متناسب با نوع خدمت
-        </span>
+        <div class="trust-icon">
+          💻
+        </div>
+
+        <div>
+          <strong>
+            آنلاین و حضوری
+          </strong>
+        </div>
+
       </div>
 
 
-      <div>
-        <strong style="color:var(--green); display:block; font-size:15px;">
-          بررسی مدارک
-        </strong>
+      <div class="trust-item">
 
-        <span style="color:var(--muted); font-size:11px;">
-          در خدمات مربوط
-        </span>
+        <div class="trust-icon">
+          📑
+        </div>
+
+        <div>
+          <strong>
+            بررسی مدارک
+          </strong>
+        </div>
+
       </div>
 
 
-      <div>
-        <strong style="color:var(--green); display:block; font-size:15px;">
-          ارتباط مستقیم
-        </strong>
+      <div class="trust-item">
 
-        <span style="color:var(--muted); font-size:11px;">
-          از طریق تلگرام مرکز
-        </span>
+        <div class="trust-icon">
+          💬
+        </div>
+
+        <div>
+          <strong>
+            ارتباط مستقیم
+          </strong>
+        </div>
+
       </div>
 
     </div>
@@ -284,7 +344,6 @@
   </div>
 
 </section>
-
 
 
 <!-- ==================================================
@@ -295,8 +354,7 @@
 
   <div class="container">
 
-
-    <div class="section-heading">
+    <div class="section-title">
 
       <div class="eyebrow">
         خدمات حقوقی
@@ -314,12 +372,12 @@
     </div>
 
 
-    <div class="cards-3">
+    <div class="cards">
 
 
       <!-- SERVICE 1 -->
 
-      <article class="card">
+      <article class="card price-card">
 
         <div class="card-icon">
           💬
@@ -330,34 +388,33 @@
         </h3>
 
         <p>
-
           بررسی موضوع مطرح‌شده،
           پاسخ به پرسش‌های مرتبط و ارائه
           راهنمایی اولیه درباره وضعیت حقوقی،
           حقوق و تکالیف و مسیر مناسب پیگیری.
-
         </p>
 
+        <div class="price">
+          ۹۰۰٬۰۰۰
+          <small>تومان</small>
+        </div>
 
-        <div class="card-price">
-
-          <strong>
-            ۹۰۰٬۰۰۰ تومان
-          </strong>
-
-          <span>
-            پاسخ‌گویی تا ۱۲ ساعت
-          </span>
-
+        <div
+          style="
+            margin-top:8px;
+            color:var(--muted);
+            font-size:11px;
+          "
+        >
+          پاسخ‌گویی تا ۱۲ ساعت
         </div>
 
       </article>
 
 
-
       <!-- SERVICE 2 -->
 
-      <article class="card">
+      <article class="card price-card featured">
 
         <div class="card-icon">
           📑
@@ -368,34 +425,33 @@
         </h3>
 
         <p>
-
           بررسی شرح کامل موضوع،
           بررسی مدارک مرتبط،
           تحلیل حقوقی و ارائه راهکار
           متناسب با شرایط پرونده.
-
         </p>
 
+        <div class="price">
+          ۱٬۸۰۰٬۰۰۰
+          <small>تومان</small>
+        </div>
 
-        <div class="card-price">
-
-          <strong>
-            ۱٬۸۰۰٬۰۰۰ تومان
-          </strong>
-
-          <span>
-            پاسخ‌گویی تا ۲۴ ساعت
-          </span>
-
+        <div
+          style="
+            margin-top:8px;
+            color:var(--muted);
+            font-size:11px;
+          "
+        >
+          پاسخ‌گویی تا ۲۴ ساعت
         </div>
 
       </article>
 
 
-
       <!-- SERVICE 3 -->
 
-      <article class="card">
+      <article class="card price-card">
 
         <div class="card-icon">
           ⚖
@@ -406,25 +462,25 @@
         </h3>
 
         <p>
-
           بررسی جامع موضوع و مدارک،
           تحلیل مسیرهای حقوقی،
           بررسی گزینه‌های قابل پیگیری
           و ارائه نقشه راه حقوقی.
-
         </p>
 
+        <div class="price">
+          ۳٬۵۰۰٬۰۰۰
+          <small>تومان</small>
+        </div>
 
-        <div class="card-price">
-
-          <strong>
-            ۳٬۵۰۰٬۰۰۰ تومان
-          </strong>
-
-          <span>
-            پاسخ‌گویی تا ۴۸ ساعت
-          </span>
-
+        <div
+          style="
+            margin-top:8px;
+            color:var(--muted);
+            font-size:11px;
+          "
+        >
+          پاسخ‌گویی تا ۴۸ ساعت
         </div>
 
       </article>
@@ -432,7 +488,12 @@
     </div>
 
 
-    <div style="text-align:center; margin-top:28px;">
+    <div
+      style="
+        text-align:center;
+        margin-top:28px;
+      "
+    >
 
       <a
         href="services.html"
@@ -448,7 +509,6 @@
 </section>
 
 
-
 <!-- ==================================================
      AREAS OF EXPERTISE
 ================================================== -->
@@ -457,7 +517,7 @@
 
   <div class="container">
 
-    <div class="section-heading">
+    <div class="section-title">
 
       <div class="eyebrow">
         حوزه‌های فعالیت
@@ -474,7 +534,7 @@
     </div>
 
 
-    <div class="cards-3">
+    <div class="cards">
 
 
       <article class="card">
@@ -541,26 +601,24 @@
 </section>
 
 
-
 <!-- ==================================================
      LAWYER / CENTER INTRO
 ================================================== -->
 
 <section class="section">
 
-  <div class="container two-col">
+  <div class="container info-grid">
 
 
-    <div class="info-card">
+    <div class="info-box">
 
       <div class="eyebrow">
         معرفی
       </div>
 
-      <h3 style="margin-top:10px;">
+      <h3>
         وکیل مرکز
       </h3>
-
 
       <h2
         style="
@@ -572,16 +630,12 @@
         محمدرضا عباسی
       </h2>
 
-
       <p>
-
         وکیل مرکز وکلای قوه قضاییه،
         با تمرکز بر دعاوی خانواده،
         ارث و تقسیم ارثیه،
         ثبت احوال و امور حسبی.
-
       </p>
-
 
       <div
         style="
@@ -613,30 +667,25 @@
     </div>
 
 
-
-    <div class="info-card">
+    <div class="info-box">
 
       <div class="eyebrow">
         رویکرد مرکز
       </div>
 
-      <h3 style="margin-top:10px;">
+      <h3>
         بررسی دقیق، سپس ارائه راهکار
       </h3>
 
-
       <p>
-
         در خدمات تخصصی، پاسخ حقوقی بر اساس
         اطلاعات و مدارکی که مراجعه‌کننده
         ارائه می‌کند تهیه می‌شود.
         کامل و صحیح بودن اطلاعات می‌تواند
         در کیفیت بررسی حقوقی مؤثر باشد.
-
       </p>
 
-
-      <ul class="feature-list">
+      <ul class="info-list">
 
         <li>
           بررسی موضوع و شرایط پرونده
@@ -667,7 +716,6 @@
 </section>
 
 
-
 <!-- ==================================================
      PROCESS
 ================================================== -->
@@ -676,7 +724,7 @@
 
   <div class="container">
 
-    <div class="section-heading">
+    <div class="section-title">
 
       <div class="eyebrow">
         روند دریافت خدمت
@@ -810,9 +858,9 @@
 
         <div>
 
-          <strong>
+          <h3>
             زمان پاسخ‌گویی
-          </strong>
+          </h3>
 
           <p>
             بازه ۱۲، ۲۴ یا ۴۸ ساعت،
@@ -831,7 +879,6 @@
 </section>
 
 
-
 <!-- ==================================================
      PAYMENT
 ================================================== -->
@@ -840,8 +887,7 @@
 
   <div class="container">
 
-
-    <div class="section-heading">
+    <div class="section-title">
 
       <div class="eyebrow">
         پرداخت
@@ -858,10 +904,10 @@
     </div>
 
 
-    <div class="two-col">
+    <div class="info-grid">
 
 
-      <div class="info-card">
+      <div class="info-box">
 
         <div class="card-icon">
           💳
@@ -875,7 +921,6 @@
           در حال حاضر امکان پرداخت کارت‌به‌کارت
           برای خدمات مرکز وجود دارد.
         </p>
-
 
         <div
           style="
@@ -910,8 +955,7 @@
       </div>
 
 
-
-      <div class="info-card">
+      <div class="info-box">
 
         <div class="card-icon">
           🔐
@@ -922,12 +966,9 @@
         </h3>
 
         <p>
-
           درگاه پرداخت آنلاین زرین‌پال
           پس از فعال‌سازی در سایت قرار خواهد گرفت.
-
         </p>
-
 
         <div
           style="
@@ -940,10 +981,8 @@
             font-size:12px;
           "
         >
-
           درگاه زرین‌پال در حال حاضر
           هنوز فعال نشده است.
-
         </div>
 
       </div>
@@ -953,7 +992,6 @@
   </div>
 
 </section>
-
 
 
 <!-- ==================================================
@@ -962,88 +1000,78 @@
 
 <section class="section section-soft">
 
-  <div class="container">
-
-    <div class="two-col">
+  <div class="container info-grid">
 
 
-      <div class="info-card">
+    <div class="info-box">
 
-        <div class="eyebrow">
-          مراجعه حضوری
-        </div>
-
-        <h3 style="margin-top:10px;">
-          امکان مراجعه حضوری
-        </h3>
-
-        <p>
-
-          مراجعه حضوری به مرکز با تعیین وقت قبلی
-          امکان‌پذیر است.
-          برای هماهنگی زمان مراجعه، ابتدا
-          با ادمین مرکز در تلگرام تماس بگیرید.
-
-        </p>
-
-
-        <a
-          href="https://t.me/kajcenter_support"
-          class="btn btn-primary"
-          target="_blank"
-          rel="noopener"
-          style="margin-top:20px;"
-        >
-          هماهنگی مراجعه حضوری
-        </a>
-
+      <div class="eyebrow">
+        مراجعه حضوری
       </div>
 
+      <h3>
+        امکان مراجعه حضوری
+      </h3>
+
+      <p>
+        مراجعه حضوری به مرکز با تعیین وقت قبلی
+        امکان‌پذیر است.
+        برای هماهنگی زمان مراجعه، ابتدا
+        با ادمین مرکز در تلگرام تماس بگیرید.
+      </p>
+
+      <a
+        href="https://t.me/kajcenter_support"
+        class="btn btn-primary"
+        target="_blank"
+        rel="noopener noreferrer"
+        style="margin-top:20px;"
+      >
+        هماهنگی مراجعه حضوری
+      </a>
+
+    </div>
 
 
-      <div class="info-card">
+    <div class="info-box">
 
-        <div class="eyebrow">
-          ارتباط
-        </div>
-
-        <h3 style="margin-top:10px;">
-          ارتباط با مرکز
-        </h3>
-
-
-        <ul class="feature-list">
-
-          <li>
-            تلگرام مشاوره:
-            <strong>@KajLawConsult</strong>
-          </li>
-
-          <li>
-            ادمین هماهنگی:
-            <strong>@kajcenter_support</strong>
-          </li>
-
-          <li>
-            تلفن:
-            <strong>۰۸۱۳۸۳۴۰۸۶۰</strong>
-          </li>
-
-          <li>
-            ایمیل:
-            <strong>kaj.lawcenter2587@gmail.com</strong>
-          </li>
-
-        </ul>
-
+      <div class="eyebrow">
+        ارتباط
       </div>
+
+      <h3>
+        ارتباط با مرکز
+      </h3>
+
+      <ul class="info-list">
+
+        <li>
+          تلگرام مشاوره:
+          <strong>@KajLawConsult</strong>
+        </li>
+
+        <li>
+          ادمین هماهنگی:
+          <strong>@kajcenter_support</strong>
+        </li>
+
+        <li>
+          تلفن:
+          <strong>۰۸۱۳۸۳۴۰۸۶۰</strong>
+        </li>
+
+        <li>
+          ایمیل:
+          <strong>kaj.lawcenter2587@gmail.com</strong>
+        </li>
+
+      </ul>
 
     </div>
 
   </div>
 
 </section>
-
 
 
 <!-- ==================================================
@@ -1054,7 +1082,7 @@
 
   <div class="container">
 
-    <div class="section-heading">
+    <div class="section-title">
 
       <div class="eyebrow">
         نشانی مرکز
@@ -1072,8 +1100,12 @@
 
       <div class="contact-card">
 
+        <div class="card-icon">
+          📍
+        </div>
+
         <h3>
-          📍 آدرس
+          آدرس
         </h3>
 
         <p
@@ -1096,11 +1128,14 @@
       </div>
 
 
-
       <div class="contact-card">
 
+        <div class="card-icon">
+          ☎️
+        </div>
+
         <h3>
-          ☎️ راه‌های ارتباطی
+          راه‌های ارتباطی
         </h3>
 
         <p>
@@ -1131,16 +1166,15 @@
 </section>
 
 
-
 <!-- ==================================================
-     FAQ PREVIEW
+     FAQ
 ================================================== -->
 
 <section class="section section-soft">
 
   <div class="container">
 
-    <div class="section-heading">
+    <div class="section-title">
 
       <div class="eyebrow">
         پرسش‌های متداول
@@ -1158,63 +1192,68 @@
 
       <div class="faq-item">
 
-        <div class="faq-question">
+        <h3>
           آیا خدمات مرکز به‌صورت آنلاین ارائه می‌شود؟
-        </div>
+        </h3>
 
-        <div class="faq-answer">
+        <p>
           بله. خدمات مشاوره به‌صورت آنلاین ارائه می‌شود
           و مراجعه حضوری نیز با هماهنگی قبلی امکان‌پذیر است.
-        </div>
+        </p>
 
       </div>
 
 
       <div class="faq-item">
 
-        <div class="faq-question">
+        <h3>
           آیا برای مراجعه حضوری باید از قبل وقت بگیرم؟
-        </div>
+        </h3>
 
-        <div class="faq-answer">
+        <p>
           بله. برای هماهنگی زمان مراجعه حضوری،
           ابتدا از طریق ادمین مرکز در تلگرام اقدام کنید.
-        </div>
+        </p>
 
       </div>
 
 
       <div class="faq-item">
 
-        <div class="faq-question">
+        <h3>
           آیا مدارک پرونده را می‌توانم ارسال کنم؟
-        </div>
+        </h3>
 
-        <div class="faq-answer">
+        <p>
           در خدماتی که نیاز به بررسی مدارک دارند،
           امکان ارسال مدارک مرتبط برای بررسی وجود دارد.
-        </div>
+        </p>
 
       </div>
 
 
       <div class="faq-item">
 
-        <div class="faq-question">
+        <h3>
           زمان پاسخ‌گویی از چه زمانی محاسبه می‌شود؟
-        </div>
+        </h3>
 
-        <div class="faq-answer">
+        <p>
           زمان اعلام‌شده برای هر خدمت از زمان شروع پاسخ‌گویی
           وکیل محاسبه می‌شود.
-        </div>
+        </p>
 
       </div>
 
     </div>
 
 
-    <div style="text-align:center; margin-top:28px;">
+    <div
+      style="
+        text-align:center;
+        margin-top:28px;
+      "
+    >
 
       <a
         href="faq.html"
@@ -1230,44 +1269,49 @@
 </section>
 
 
-
 <!-- ==================================================
      FINAL CTA
 ================================================== -->
 
-<section class="cta-section">
+<section
+  style="
+    padding:0 0 90px;
+  "
+>
 
   <div class="container">
 
-    <div class="cta-box">
+    <div class="cta">
 
-      <div class="eyebrow" style="color:var(--gold-light);">
-        شروع مشاوره
+      <div class="cta-content">
+
+        <div
+          class="eyebrow"
+          style="color:var(--gold-light);"
+        >
+          شروع مشاوره
+        </div>
+
+        <h2>
+          موضوع حقوقی خود را با مرکز کاج مطرح کنید
+        </h2>
+
+        <p>
+          برای ثبت درخواست مشاوره،
+          اطلاعات اولیه موضوع خود را از طریق
+          تلگرام مرکز ارسال کنید.
+        </p>
+
+        <a
+          href="https://t.me/KajLawConsult"
+          class="btn btn-primary"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          ⚖️ ارتباط با مرکز و ثبت درخواست
+        </a>
+
       </div>
-
-
-      <h2>
-        موضوع حقوقی خود را با مرکز کاج مطرح کنید
-      </h2>
-
-
-      <p>
-
-        برای ثبت درخواست مشاوره،
-        اطلاعات اولیه موضوع خود را از طریق
-        تلگرام مرکز ارسال کنید.
-
-      </p>
-
-
-      <a
-        href="https://t.me/KajLawConsult"
-        class="btn btn-primary"
-        target="_blank"
-        rel="noopener"
-      >
-        ⚖️ ارتباط با مرکز و ثبت درخواست
-      </a>
 
     </div>
 
@@ -1275,8 +1319,8 @@
 
 </section>
 
-</main>
 
+</main>
 
 
 <!-- ==================================================
@@ -1290,127 +1334,127 @@
     <div class="footer-grid">
 
 
+      <!-- FOOTER BRAND -->
+
       <div class="footer-brand">
 
-        <a href="index.html" class="brand">
+        <a
+          href="index.html"
+          class="brand"
+        >
 
           <div class="brand-mark">
-            ⚖
+            <img
+              src="IMG_20260722_153449_247.jpg"
+              alt="لوگوی مرکز تخصصی حقوق خانواده کاج"
+            >
           </div>
 
           <div class="brand-text">
 
-            <div class="brand-title">
+            <strong>
               مرکز تخصصی حقوق خانواده کاج
-            </div>
+            </strong>
 
-            <div class="brand-subtitle">
+            <span>
               خدمات و مشاوره تخصصی حقوقی
-            </div>
+            </span>
 
           </div>
 
         </a>
 
-
-        <p>
-
+        <p class="footer-description">
           ارائه خدمات و مشاوره حقوقی
           با تمرکز بر دعاوی خانواده،
           ارث و تقسیم ارثیه،
           ثبت احوال و امور حسبی.
-
         </p>
 
       </div>
 
 
+      <!-- QUICK ACCESS -->
 
-      <div class="footer-col">
+      <div class="footer-column">
 
         <h3>
           دسترسی سریع
         </h3>
 
-        <ul>
+        <a href="index.html">
+          خانه
+        </a>
 
-          <li>
-            <a href="services.html">
-              خدمات و تعرفه‌ها
-            </a>
-          </li>
+        <a href="services.html">
+          خدمات و تعرفه‌ها
+        </a>
 
-          <li>
-            <a href="process.html">
-              نحوه دریافت مشاوره
-            </a>
-          </li>
+        <a href="process.html">
+          نحوه دریافت مشاوره
+        </a>
 
-          <li>
-            <a href="about.html">
-              درباره ما
-            </a>
-          </li>
+        <a href="about.html">
+          درباره ما
+        </a>
 
-          <li>
-            <a href="faq.html">
-              سؤالات متداول
-            </a>
-          </li>
-
-        </ul>
+        <a href="faq.html">
+          سؤالات متداول
+        </a>
 
       </div>
 
 
+      <!-- CONTACT -->
 
-      <div class="footer-col">
+      <div class="footer-column">
 
         <h3>
           ارتباط با مرکز
         </h3>
 
-        <ul>
+        <a
+          href="https://t.me/KajLawConsult"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          تلگرام مشاوره
+        </a>
 
-          <li>
-            <a
-              href="https://t.me/KajLawConsult"
-              target="_blank"
-              rel="noopener"
-            >
-              تلگرام مشاوره
-            </a>
-          </li>
+        <a
+          href="https://t.me/kajcenter_support"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          ادمین مرکز
+        </a>
 
-          <li>
-            <a
-              href="https://t.me/kajcenter_support"
-              target="_blank"
-              rel="noopener"
-            >
-              ادمین مرکز
-            </a>
-          </li>
+        <a href="contact.html">
+          اطلاعات تماس
+        </a>
 
-          <li>
-            <a href="contact.html">
-              اطلاعات تماس
-            </a>
-          </li>
+      </div>
 
-          <li>
-            <a href="terms.html">
-              قوانین و مقررات
-            </a>
-          </li>
 
-          <li>
-            <a href="privacy.html">
-              حریم خصوصی
-            </a>
-          </li>
+      <!-- LEGAL -->
 
-        </ul>
+      <div class="footer-column">
+
+        <h3>
+          اطلاعات حقوقی سایت
+        </h3>
+
+        <a href="terms.html">
+          قوانین و مقررات
+        </a>
+
+        <a href="privacy.html">
+          حریم خصوصی
+        </a>
+
+        <a href="contact.html">
+          تماس با ما
+        </a>
 
       </div>
 
